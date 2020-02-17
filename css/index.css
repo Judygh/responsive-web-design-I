@@ -204,8 +204,11 @@ footer{
     nav{
         display: flex;
         flex-wrap: wrap-reverse;
-        margin: auto;
+        margin: 4%;
     }
+.logo{
+  margin: 4%;  
+}
     .intro-container {
       justify-content: center;
     }
@@ -232,11 +235,14 @@ footer{
       display: flex;
       flex-direction: column-reverse;
       text-align: center;
-    }
+
+    }    
+
     nav a {
       justify-content: center;
-      width: 100vw;
+      width: 100%;
       border-bottom: 1px solid black;
+      margin-bottom: 5%;
     }
     .top-content {
       display: flex;
